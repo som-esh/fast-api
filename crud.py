@@ -1,6 +1,5 @@
 from math import ceil
 from fastapi import Request
-from fastapi_pagination import Page, paginate, add_pagination
 from sqlalchemy.orm import Session, joinedload
 import models
 
